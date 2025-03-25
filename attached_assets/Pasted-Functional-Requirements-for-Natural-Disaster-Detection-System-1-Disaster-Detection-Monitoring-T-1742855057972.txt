@@ -1,0 +1,44 @@
+Functional Requirements for Natural Disaster Detection System
+1. Disaster Detection & Monitoring
+The system should fetch real-time seismic, weather, and satellite data to detect earthquakes, floods, and storms.
+APIs (e.g., USGS, NOAA, OpenWeatherMap) should be integrated for continuous monitoring. AI/ML models should analyze patterns to detect early disaster warnings.
+2. Live Alerts & Notifications
+The system should provide real-time alerts for detected disasters via a dashboard and notifications.
+users should receive push notifications, SMS, or email alerts based on their geolocation.
+Alert severity levels (e.g., Advisory, Watch, Warning) should be categorized.
+3. Geolocation-based Notifications
+The system should detect a user’s location (GPS/IP-based) to provide localized alerts.
+A map interface should display nearby disasters, evacuation zones, and shelters.
+Users should be able to manually input a location for disaster monitoring.
+4. Disaster Footprint Tracker & Impact Visualization
+The system should display past and ongoing disasters using a heatmap & GIS-based visualization.
+Disaster footprints should be mapped using historical data + real-time updates.
+The system should track disaster spread predictions using AI models.
+5. Emergency Contact & Safety Guides
+The system should provide emergency contacts for disaster relief organizations.
+Users should have access to safety guides & preparedness tips for each type of disaster.
+A chatbot should assist users in finding nearest shelters, hospitals, or emergency services.
+6. User Authentication & Profiles
+Users should be able to sign up, log in, and manage profiles.
+Preferences for disaster alerts, locations, and notification methods should be customizable.
+8. Admin Dashboard & Data Management
+Admins should manage disaster alerts, API data sources, and user reports.
+The system should store historical disaster data for analytics & reports.
+9. System Performance & Reliability
+The system should operate 24/7 with minimal downtime.
+API requests should be optimized to avoid excessive load times.
+Scalability should be considered for handling high user traffic during disaster events.
+10. Security & Data Privacy
+User data (e.g., location, contact info) should be encrypted and protected.
+secure authentication (OAuth, JWT) should be implemented for user access.
+API rate-limiting and access controls should prevent unauthorized data requests.
+
+Frontend	React.js (Vite) + Tailwind CSS	
+Backend	Django + DRF (Django REST Framework)	
+Database	PostgreSQL (via Django ORM)	
+Authentication	Firebase Auth	
+Real-time Data APIs	USGS, NOAA, OpenWeatherMap	
+Geolocation & Mapping	Google Maps API, Leaflet.js	
+Emergency Alerts	FEMA API, GDACS	
+
+also based on their locations add this Natural Disaster Detection use jsx files with good GUI and animation
